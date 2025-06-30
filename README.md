@@ -20,7 +20,7 @@ Implementar uma **Single Page Application (SPA)** moderna, integrando:
 ## Estrutura do Projeto
 
 ```
-ATV5/
+T5/
 ├── backend/           # Java Spring Boot REST API
 ├── frontend/          # React + TypeScript (SPA)
 ├── executavel/        # JAR backend pronto
