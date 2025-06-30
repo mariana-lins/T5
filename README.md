@@ -140,5 +140,6 @@ npm run dev
 
 **Disciplina:** Programação Orientada a Objetos\
 **Professor:** Dr. Eng. Gerson Penha\
+**Aluna:** Mariana Lins  
 **Atividade V:** SPA Completa e Relatórios Analíticos
 
