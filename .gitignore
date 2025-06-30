@@ -1,0 +1,101 @@
+# ==========================================
+# GITIGNORE CONSOLIDADO - PROJETO WB ATV5
+# ==========================================
+
+# Build outputs
+frontend/dist/
+frontend/dist-ssr/
+backend/target/
+backend/build/
+
+# Dependencies
+frontend/node_modules/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# Spring Boot
+backend/HELP.md
+!backend/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Frontend logs
+frontend/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# IDE files - IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# IDE files - STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IDE files - NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# IDE files - VSCode
+.vscode/
+!.vscode/extensions.json
+
+# IDE files - General
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Local environment files
+*.local
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug and test files
+debug-*.js
+test-*.js
+*-debug.*
+*-test.*
+
+# Package manager lock files (optional)
+# Descomente a linha abaixo se quiser excluir lock files
+# frontend/package-lock.json
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Runtime directories
+runtime/
+tmp/
